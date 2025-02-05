@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads With Excel To Tally</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .sidebar {
+            width: 200px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            background: purple;
+            padding: 20px;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px 0;
+            background: #6a0dad;
+            border-radius: 5px;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .profile {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .buttons a {
+            display: inline-block;
+            background: purple;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Product & Services</a>
+        <a href="#">Shop</a>
+        <a href="#">Gallery</a>
+        <a href="#">YouTube Videos</a>
+        <a href="#">Payment</a>
+        <a href="#">Enquiry</a>
+    </div>
+    <div class="content">
+        <div class="profile">
+            <h1>LEADS WITH Excel To Tally</h1>
+            <p><strong>Fastinflow</strong><br>Founder of DBM KIT</p>
+            <div class="buttons">
+                <a href="tel:9886799378">Call</a>
+                <a href="https://wa.me/9886799378">WhatsApp</a>
+                <a href="#">Direction</a>
+                <a href=""fastinflow@gmail.com"">Mail</a>
+                <a href="#">Website</a>
+            </div>
+            <p>📞 9886799378</p>
+            <p>📞 8095697910</p>
+            <p>📧 fastinflow@gmail.com</p>
+            <p>📍 Pune</p>
+        </div>
+    </div>
+</body>
+</html>
